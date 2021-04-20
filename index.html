@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="container">
+ <button class="set">O</button>
+ <menu id='setting' class="setting">
+
+  <form id="settingform">
+    <h2>Settings</h2>
+    <h3>24-HOUR CLOCK</h3>
+    <input type="radio" id="yes" name="24h" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="24h" value="no">
+    <label for="no">No</label>
+  
+
+  <br>  
+
+  <h3>SHOW SECONDS</h3>
+  <input type="radio" id="yes" name="seconds" value="yes">
+  <label for="yes">Yes</label>
+  <input type="radio" id="no" name="seconds" value="no">
+  <label for="no">No</label>
+
+
+  <br>  
+
+  <h3>SHOW DATE</h3>
+  <input type="radio" id="yes" name="date" value="yes">
+  <label for="yes">Yes</label>
+  <input type="radio" id="no" name="date" value="no">
+  <label for="no">No</label>
+
+
+  <br>
+  <button type="submit" id="save">SAVE</button>
+</form>
+</menu>
+  
+
+  <h1 id="now"></h1>
+
+<img id="img">
+    <p></p>
+     <h4></h4>
+  
+  <div >
+    <button class="more">MORE</button>
+    
+    <menu id='menu' class="menu">
+      <ul>
+        <li id='day'>DAY OF THE WEEK </li>
+        
+        <br>
+        <li id='month'>DAY OF THE MONTH </li>
+        <br>
+        
+        <li id="year">DAY OF THE YEAR </li>
+    
+        <br>
+        
+        <li id="weekyear">WEEK OF THE YEAR </li>
+      </ul>
+    </menu>
+  </div>
+  </div>
+  <script src = 'script.js'></script>
+</body>
+</html>

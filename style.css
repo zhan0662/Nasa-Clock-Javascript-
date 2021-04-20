@@ -1,0 +1,75 @@
+#now{
+    font-size: 3rem;
+    text-align: center;
+    color: aqua;
+}
+
+#img{
+    text-align: center;
+    width: 100%;
+}
+
+.menu{
+    display: none;
+    
+    
+    
+}
+
+
+.setting{
+    display: none;
+    
+    
+}
+
+.active{
+    display: block;
+
+}
+
+li{
+    color:aliceblue
+}
+
+p{
+    color: rgb(255, 255, 255);
+    background-color: rgb(175, 175, 175);
+    opacity: 75%;
+}
+
+body{
+    background-repeat: no-repeat, repeat; 
+    background-size: cover;
+}
+
+#settingform{
+ 
+    color: rgb(255, 255, 255);
+}
+
+#setting{
+    background-color:grey ;
+    opacity: 75%;
+    width: 200px;
+}
+
+#save{
+    margin:20px
+}
+
+#menu{
+    background-color:grey ;
+    opacity: 75%;
+    
+}
+
+ul{
+   list-style: none; 
+   
+}
+
+h4{
+    font-size: 2rem;
+    text-align: center;
+}
